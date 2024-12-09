@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+
+/*header and footer*/
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: large;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #7E534B;
+    list-style-type: none;
+    width: 1265px;
+    height: 70px;
+}
+
+nav ul li a:hover {
+    background-color: #826661;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #7E534B;
+}
+
+/* bubbles and area */
+
+.text-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text-bubble1 {
+    background-color: #8C705F;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+.text-bubble2 {
+    background-color: #CFBBB0;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+.text-bubble3 {
+    background-color: #4B0809;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+.text-bubble4 {
+    background-color: #1F1A1D;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+/*home*/
+
+/*About me page*/
+
+.text-bubble1, .how-it-all-started {
+    display: flex;
+    justify-content: center;
+}
+
+.text-bubble2, .hobbies {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.text-bubble3, .my-goals {
+    display: flex;
+    justify-content: center;
+    padding: 38px; 
+}
+
+.text-bubble4, .past-schools {
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+}
+
+
+.about-me-left img{
+    border-radius: 20px;
+    width: 300px;
+    margin-top: 30px;
+
+}
+
+.about-me-right img{
+    border-radius: 20px;
+    width: 325px;
+    height: 298px;
+    margin-bottom: 30px;
+}
+
+/* My work page */
+
+.text-bubble2, .mastermind {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.text-bubble1, .pinkgoose {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.text-bubble3, .projectweek1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.my-work-left img {
+    width: 275px;
+    height: 75px;
+}
+
+.my-work-right img {
+    width: 275px;
+    height: 205px;
+}
+
+/*Contact page*/
+
+.text-bubble3, .phone {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.text-bubble4, .emails {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 30px;
+}
+
+.contact-left img {
+    height: 210px;
+    margin-bottom: 30px;
+}
+
+.contact-right img {
+    height: 235px;
+    margin-top: 30px;
+}
