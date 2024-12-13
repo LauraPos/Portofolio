@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     color: #ffffff;
+
 }
 
 /*header and footer*/
@@ -48,6 +49,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    background-color: #e5f2c9;
 }
 
 .text-bubble1 {
@@ -91,7 +93,37 @@ footer {
     width: auto;
 }
 
-/*home*/
+/*Home page*/
+
+.home-left h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: black; 
+    font-size: 50px;
+
+}
+
+.home-left img {
+    width: 400px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.home-middle {
+    margin-top: 150px;
+}
+
+
+.home-right {
+    margin-top: 120px;
+}
+
+.home-right img {
+    width: 330px;
+    height: 240px;
+}
+
 
 /*About me page*/
 
