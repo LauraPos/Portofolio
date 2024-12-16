@@ -124,6 +124,10 @@ footer {
     height: 240px;
 }
 
+h3 a {
+    text-decoration: none;
+}
+
 
 /*About me page*/
 
